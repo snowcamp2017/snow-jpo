@@ -21,7 +21,7 @@ class Sensor extends Worker {
       delay: this.delay,
       min: this.component.min,
       max: this.component.max,
-      kind: "I am a 🤖"
+      kind: "I am a 🐼"
     }
   }
 }
