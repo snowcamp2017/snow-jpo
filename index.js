@@ -14,13 +14,8 @@ app.use(express.static('public'));
 app.get('/hello/world', (req, res) => {
   res.send({
     message: "Hello 🌏!",
-    whoami: "babs"
+    whoami: "babs bunny"
   })
 });
-
-// ...
-
-
-
 app.listen(port);
 console.log(`🌍 Web Application is started - listening on ${port}`);
