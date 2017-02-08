@@ -28,9 +28,9 @@ app.get('/sensors/bob-sensor', (req, res) => {
 
 app.get('/hello/world', (req, res) => {
   res.send({
-    message: "Hello 🌏!",
+    message: "Hello World!",
     whoami: "Java-Processing Octopus"
   })
 });
 app.listen(port);
-console.log(`🌍 Web Application is started - listening on ${port}`);
+console.log(`World Web Application is started - listening on ${port}`);
