@@ -29,7 +29,7 @@ app.get('/sensors/bob-sensor', (req, res) => {
 app.get('/hello/world', (req, res) => {
   res.send({
     message: "Hello 🌏!",
-    whoami: "babs bunny"
+    whoami: "Java-Processing Octopus"
   })
 });
 app.listen(port);
